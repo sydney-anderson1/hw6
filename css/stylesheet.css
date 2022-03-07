@@ -1,3 +1,37 @@
 body{
-    background-color: blueviolet;
+    background-color: lightblue;
+    font-size: 12pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+h1{
+    color: darkblue;
+    font-style: italic;
+}
+
+h2{
+    color: plum;
+    font-style: oblique
+}
+
+header{
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* CSS Classes */
+.error {color: yellow;
+}
+
+/* CSS IDs */
+#page_title {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+td {
+    border: solid 2px blanchedalmond;
+}
+<table style="border: 5px solid #990000; border-collapse: collapse">
